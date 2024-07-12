@@ -162,69 +162,8 @@ h3{
     width: 100%;
     object-fit: cover;
 }
-#line1{
-    height: 4px;
-    width: 20%;
-    background-color: white;
-    position: absolute;
-    margin-left: 10%;
-    border-radius: 2px;
-    margin-bottom: 5%;
-}
-#line2{
-    height: 4px;
-    width: 20%;
-    background-color: white;
-    position: absolute;
-    margin-left: 39%;
-    border-radius: 2px;
-    margin-bottom: 5%;
-}
-#line3{
-    height: 4px;
-    width: 20%;
-    background-color: white;
-    position: absolute;
-    margin-left: 68.7%;
-    border-radius: 2px;
-    margin-bottom: 5%;
-}
-#line1a{
-    background-color: purple;
-    height: 4px;
-    width: 100%;
-    border-radius: 2px;
-}
-#line1ab{
-    height: 4px;
-    width: 33.62%;
-    background-color: rgb(245, 184, 243);
-    border-radius: 2px;
-}
-#line2a{
-    background-color: purple;
-    height: 4px;
-    width: 100%;
-    border-radius: 2px;
-}
-#line2ab{
-    height: 4px;
-    width: 38.23%;
-    background-color: rgb(245, 184, 243);
-    border-radius: 2px;
-}
-#line3a{
-    background-color: purple;
-    height: 4px;
-    width: 100%;
-    border-radius: 2px;
-}
-#line3ab{
-    height: 4px;
-    width: 28.15%;
-    background-color: rgb(245, 184, 243);
-    border-radius: 2px;
-}
+
+
 #naming{
     height: 15%;
     width: 20%;
@@ -262,4 +201,45 @@ h3{
     font-family: Arial, Helvetica, sans-serif;
     color: #fff;
     font-size: 100%;
+}
+#page3{
+    height: 80%;
+    width: 100%;
+    background-color: rgb(56, 12, 52);
+    position: relative;
+    display: flex;
+}
+#name1{
+    /* background-color: red; */
+    height: 20%;
+    width: 50%;
+    margin-top: 2%;
+    margin-left: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#name1 h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 150%;
+    font-weight: 600;
+    color: #f7f2f2;
+}
+#project-container{
+    background-color: red;
+    height: 60%;
+    width: 100%;
+    position: absolute;
+    margin-top: 10%;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+}
+.project{
+     height: 80%;
+     width: 28%;
+     background-color: blue;
+     margin-left: 10px;
+     margin-right: 10px;
 }
