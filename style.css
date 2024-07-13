@@ -259,8 +259,6 @@ h3{
 }
 #pj1{
     background-image: url(assets/Bin2Dec.png);
-    
-
 }
 #pj2{
     background-image: url(assets/Calculator.png);
@@ -287,7 +285,6 @@ h3{
 #overlay p{
     color: #000;
     font-size: 15px;
-
 }
 .project:hover .overlay{
     opacity: 1;
@@ -309,7 +306,6 @@ h3{
     margin-top: 8%;
     margin-left: 5%;
     display: grid;
-    
 }
 #nav h1{
     font-size: 400%;
@@ -333,29 +329,43 @@ h3{
 }
 #eye{
     background-color: blue; 
-    width: 24%;
-    height: 32%;
+    width: 22%;
+    height: 33%;
     position: absolute;
     margin-top: 23%;
-    margin-left: 10%;
+    margin-left: 14%;
     object-fit: cover;
 }
 #eye img{
     height: 100%;
     width: 100%;
 }
-#nav2{
+#contact{
     /* background-color: red; */
-    height: 10%;
-    width: 20%;
+    height: 78%;
+    width: 40%;
     position: absolute;
-    margin-top: 26%;
-    margin-left: 20%;
+    margin-left: 50%;
+    margin-top: 5%;
+    text-align: center;
+
 }
-#nav2 h1{
-    font-family:'Courier New', Courier, monospace;
-    font-weight: 400;
-    font-size: 140%;
-    color: #fff;
-    margin-left: 15px;
+input{
+    width: 200px;
+    padding: 9px;
+    border: 3px solid #ef88c6;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    margin-top: 15px;
+}
+button{
+    border-radius: 5px;
+    border: 2px solid #fff;
+    background-color: #fff;
+    color: #000;
+    height: 19%;
+    cursor: pointer;
+}
+button:hover{
+    background-color: rgb(249, 155, 210);
 }
