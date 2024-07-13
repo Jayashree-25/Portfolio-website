@@ -58,7 +58,7 @@ html,body{
 #box{
     height: 50%;
     width: 20%;
-    background-color: #e496ea;
+    background-color: #883a8e;
     position: absolute;
     margin-left: 68%;
     margin-top: 10%;
@@ -85,7 +85,7 @@ html,body{
     transform: translate(-50%,-50%) rotate(45deg);
     height: 160%;
     width: 25%;
-    background-color: white;
+    background-color: #000;
     animation: move 1.3s infinite;
 }
 @keyframes move{
@@ -138,7 +138,7 @@ h3{
     margin-top: 15%;
     display: flex;
     align-items: center;
-    gap: 199px;
+    gap: 170px;
 }
 .card{
     height: 25%;
@@ -162,45 +162,53 @@ h3{
     width: 100%;
     object-fit: cover;
 }
-
-
-#naming{
-    height: 15%;
-    width: 20%;
+#html{
+    height: 16%;
+    width: 10%;
     /* background-color: red; */
     position: absolute;
-    margin-left: 11%;
+    margin-left: 10%;
     display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5%;
 }
-#naming h4{
-    font-family: Arial, Helvetica, sans-serif;
+#html h1{
+    font-size: 110%;
+    margin-right: 25%;
     color: #fff;
 }
-#naming2{
-    height: 15%;
-    width: 20%;
+#css{
+    height: 16%;
+    width: 10%;
     /* background-color: red; */
     position: absolute;
     margin-left: 40%;
     display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5%;
 }
-#naming2 h5{
-    font-family: Arial, Helvetica, sans-serif;
+#css h2{
+    font-size: 110%;
+    margin-right: 130%;
     color: #fff;
-    font-size: 100%;
 }
-#naming3{
-    height: 15%;
-    width: 20%;
+#js{
+    height: 16%;
+    width: 10%;
     /* background-color: red; */
     position: absolute;
-    margin-left: 70%;
+    margin-left: 69%;
     display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5%;
 }
-#naming3 h6{
-    font-family: Arial, Helvetica, sans-serif;
+#js h3{
+    font-size: 110%;
+    margin-right: 130%;
     color: #fff;
-    font-size: 100%;
 }
 #page3{
     height: 80%;
@@ -226,20 +234,67 @@ h3{
     color: #f7f2f2;
 }
 #project-container{
-    background-color: red;
-    height: 60%;
+    /* background-color: red; */
+    height: 64%;
     width: 100%;
     position: absolute;
     margin-top: 10%;
     display: flex;
-    gap: 5px;
     align-items: center;
     justify-content: center;
 }
 .project{
      height: 80%;
-     width: 28%;
-     background-color: blue;
-     margin-left: 10px;
-     margin-right: 10px;
+     width: 40%;
+     background-color: rgb(250, 161, 209);
+     margin-left: 5px;
+     margin-right: 5px;
+     border-radius: 10px;
+     box-shadow: 0px 10px 60px  #6a0209;
+     display: grid;
+     background-size: cover;
+     background-position: center;
+     overflow: hidden;
+     transition: all ease 0.5s;
+}
+#pj1{
+    background-image: url(assets/Bin2Dec.png);
+    
+
+}
+#pj2{
+    background-image: url(assets/Calculator.png);
+}
+#pj3{
+    background-image: url(assets/Golf\ .png);
+}
+#pj4{
+    background-image: url(assets/Portfolio1.png);
+}
+.overlay{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(252, 62, 189);
+    padding-top: 20px;
+    padding: 10px;
+    opacity: 0;
+    transition: all ease 0.5s;
+}
+.overlay h1{
+    color: #030101;
+    font-size: 30px;
+    font-weight: 600;
+    white-space: nowrap;
+    margin-bottom: 10px;
+}
+#overlay p{
+    color: #000;
+    font-size: 15px;
+
+}
+.project:hover .overlay{
+    opacity: 1;
+}
+.project:hover{
+    transform: rotate3d(1,-1,0, 10deg);
 }
