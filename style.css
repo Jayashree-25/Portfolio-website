@@ -8,9 +8,9 @@ html,body{
     height: 100%;
 }
 #page1{
-    height: 100%;
+    height: 90%;
     width: 100%;
-    background: linear-gradient(rgb(19, 18, 19),rgb(48, 23, 46));
+    background-color: #000;
     position: relative;
 }
 #head{
@@ -26,7 +26,7 @@ html,body{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 255%;
     font-weight: 500;
-    background: -webkit-linear-gradient(white, rgba(224, 109, 224, 0.422));
+    background: -webkit-linear-gradient(white, rgba(36, 131, 54, 0.422));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -42,23 +42,24 @@ html,body{
     font-family: 'Times New Roman', Times, serif;
     font-size: 140%;
     font-weight: 600;
-    background: -webkit-linear-gradient(rgb(114, 186, 195),rgb(132, 63, 123));
+    color: rgb(232, 239, 229);
+    /* background: -webkit-linear-gradient(rgb(114, 186, 195),rgb(132, 63, 123));
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    -webkit-text-fill-color: transparent; */
 }
 #p2{
     font-style: italic;
     font-size: 110%;
     font-weight: 550;
     margin-top: 12%;
-    background: -webkit-linear-gradient(rgb(232, 99, 195),rgb(132, 63, 123));
+    background: -webkit-linear-gradient(rgb(101, 232, 99),rgb(34, 90, 62));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 #box{
     height: 50%;
     width: 20%;
-    background-color: #883a8e;
+    background-color: #61c75a;
     position: absolute;
     margin-left: 68%;
     margin-top: 10%;
@@ -85,7 +86,7 @@ html,body{
     transform: translate(-50%,-50%) rotate(45deg);
     height: 160%;
     width: 25%;
-    background-color: #000;
+    background-color: #fff;
     animation: move 1.3s infinite;
 }
 @keyframes move{
@@ -96,30 +97,30 @@ html,body{
 #page2{
     height: 80%;
     width: 100%;
-    background-color: #250625;
+    background-color: #000;
     position: relative;
 }
 #skill{
-    height: 20%;
+    height: 29%;
     width: 35%;
     /* background-color: red;*/ 
     position: absolute;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 3%;
+    margin-top: 0%;
     margin-left: 33%;
     gap: 3%;
 }
 h2{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 190%;
+    font-size: 200%;
     font-weight: 700;
     color: #fff;
 }
 h3{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 190%;
+    font-size: 200%;
     font-weight: 700;
     color: #fff;
 }
@@ -213,7 +214,7 @@ h3{
 #page3{
     height: 80%;
     width: 100%;
-    background-color: rgb(56, 12, 52);
+    background-color: #000;
     position: relative;
     display: flex;
 }
@@ -246,11 +247,11 @@ h3{
 .project{
      height: 80%;
      width: 40%;
-     background-color: rgb(250, 161, 209);
+     background-color: rgb(195, 246, 120);
      margin-left: 15px;
      margin-right: 15px;
      border-radius: 10px;
-     box-shadow: 0px 10px 60px  #6a0209;
+     box-shadow: 0px 10px 60px  #2e502c;
      display: grid;
      background-size: cover;
      background-position: center;
@@ -269,7 +270,7 @@ h3{
 .overlay{
     height: 100%;
     width: 100%;
-    background-color: rgb(252, 62, 189);
+    background-color: rgb(90, 244, 90);
     padding-top: 20px;
     padding: 10px;
     opacity: 0;
@@ -293,7 +294,7 @@ h3{
     transform: rotate3d(1,-1,0, 10deg);
 }
 #page4{
-    background-color: #250625;
+    background-color: #000;
     height: 80%;
     width: 100%;
     position: relative;
@@ -314,7 +315,7 @@ h3{
     margin-top: 10px;
     margin-bottom: 10px;
     margin-left: 15px;
-    background: -webkit-linear-gradient(white, rgba(224, 109, 224, 0.422));
+    background: -webkit-linear-gradient(rgb(14, 52, 5), rgba(51, 223, 82, 0.964));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -323,17 +324,17 @@ h3{
     font-family: 'Times New Roman', Times, serif;
     font-weight: 540;
     margin-left: 40%;
-    background: -webkit-linear-gradient(white, rgba(224, 109, 224, 0.422));
+    background: -webkit-linear-gradient(rgb(14, 52, 5), rgba(51, 223, 82, 0.964));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 #eye{
-    background-color: blue; 
-    width: 22%;
+    /* background-color: blue;  */
+    width: 20%;
     height: 33%;
     position: absolute;
     margin-top: 23%;
-    margin-left: 14%;
+    margin-left: 16%;
     object-fit: cover;
 }
 #eye img{
@@ -353,7 +354,7 @@ h3{
 input{
     width: 200px;
     padding: 9px;
-    border: 3px solid #ef88c6;
+    border: 3px solid #309529;
     border-radius: 5px;
     margin-bottom: 10px;
     margin-top: 15px;
@@ -367,5 +368,5 @@ button{
     cursor: pointer;
 }
 button:hover{
-    background-color: rgb(249, 155, 210);
+    background-color: rgb(83, 220, 70);
 }
