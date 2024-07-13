@@ -247,8 +247,8 @@ h3{
      height: 80%;
      width: 40%;
      background-color: rgb(250, 161, 209);
-     margin-left: 5px;
-     margin-right: 5px;
+     margin-left: 15px;
+     margin-right: 15px;
      border-radius: 10px;
      box-shadow: 0px 10px 60px  #6a0209;
      display: grid;
@@ -267,9 +267,6 @@ h3{
 }
 #pj3{
     background-image: url(assets/Golf\ .png);
-}
-#pj4{
-    background-image: url(assets/Portfolio1.png);
 }
 .overlay{
     height: 100%;
@@ -297,4 +294,68 @@ h3{
 }
 .project:hover{
     transform: rotate3d(1,-1,0, 10deg);
+}
+#page4{
+    background-color: #250625;
+    height: 80%;
+    width: 100%;
+    position: relative;
+}
+#nav{
+    /* background-color: red; */
+    height: 45%;
+    width: 47%;
+    position: absolute;
+    margin-top: 8%;
+    margin-left: 5%;
+    display: grid;
+    
+}
+#nav h1{
+    font-size: 400%;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 540;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 15px;
+    background: -webkit-linear-gradient(white, rgba(224, 109, 224, 0.422));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#nav h2{
+    font-size: 400%;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 540;
+    margin-left: 40%;
+    background: -webkit-linear-gradient(white, rgba(224, 109, 224, 0.422));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#eye{
+    background-color: blue; 
+    width: 24%;
+    height: 32%;
+    position: absolute;
+    margin-top: 23%;
+    margin-left: 10%;
+    object-fit: cover;
+}
+#eye img{
+    height: 100%;
+    width: 100%;
+}
+#nav2{
+    /* background-color: red; */
+    height: 10%;
+    width: 20%;
+    position: absolute;
+    margin-top: 26%;
+    margin-left: 20%;
+}
+#nav2 h1{
+    font-family:'Courier New', Courier, monospace;
+    font-weight: 400;
+    font-size: 140%;
+    color: #fff;
+    margin-left: 15px;
 }
